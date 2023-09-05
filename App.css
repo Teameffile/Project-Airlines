@@ -1,0 +1,67 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+ 
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #d0d1e1aa);
+
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #691313;
+}
+img{
+  max-width:  100px;
+  height: auto
+}
+/*styledimg{
+  background-image: url(C:\Users\SRINITHI\Desktop\images.jpg);
+background-repeat: no-repeat;
+width: 10px;
+height: 20px;
+}*/
+div.bgImg{
+  width: 300px;
+  height: 280px;
+  background-color: blueviolet;
+  background-image: url(C:\Users\SRINITHI\Desktop\images.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
